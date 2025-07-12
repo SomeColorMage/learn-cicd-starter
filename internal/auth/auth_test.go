@@ -57,7 +57,6 @@ func TestGetAPIKey(t *testing.T) {
 				t.Errorf("Unexpected: TestGetAPIKey:%s", output)
 				return
 			}
-			t.Fail() //remove this
 		})
 	}
 }
